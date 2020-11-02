@@ -2,7 +2,8 @@
 
 This project contains the implementation and attack scripts required to perform
 generic side-channel assisted chosen-ciphertext attacks over several lattice-based PKE and KEM
-schemes. In particular, we include scripts for lattice-based PKE and KEM schemes such as Kyber, LAC, Round5 and NewHope. The main project contains three sub-directories.
+schemes. The attack is based on the paper available in this [link](https://tches.iacr.org/index.php/TCHES/article/view/8592).
+In particular, we include scripts for lattice-based PKE and KEM schemes such as Kyber, LAC, Round5 and NewHope. The main project contains three sub-directories.
 
 ## Get_ciphertext_scripts
 

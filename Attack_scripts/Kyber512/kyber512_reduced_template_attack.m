@@ -25,6 +25,7 @@ path = sprintf('Kyber_m_0_traces_profiling/');
 ext='.mat';
 for i=traces_ini:traces_per_file:traces_final
     fname=[path fform_first ext];
+    fname
 %     disp(['Reading ' fname]);
     load(fname);
     traces=double(traces(first_set_start_index:first_set_end_index,:));

@@ -26,8 +26,7 @@ This communication protocol is implemented in the wrapper script `test.c` presen
 
 ## Trigger for Trace-Acquisition:
 
-GPIO triggers have been embedded into the program which indicate the start and end of sensitive operations whose side-channel measurements are to be captured. The GPIO trigger does high
-upon start of computation of the target operation and goes low upon completion of the same computation. GPIO7 on the STM32F4 discovery board has been used as the trigger, which can be input to an oscilloscope for trace capture corresponding to the target operation.
+GPIO triggers have been embedded into the program which indicate the start and end of sensitive operations whose side-channel measurements are to be captured. The GPIO trigger does high upon start of computation of the target operation and goes low upon completion of the same computation. GPIO7 on the STM32F4 discovery board has been used as the trigger, which can be input to an oscilloscope for trace capture corresponding to the target operation.
 
 ## Steps to perform the attack:
 
